@@ -1,0 +1,150 @@
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+@font-face{
+    font-family: roboto;
+    src: url(./Fonts/Roboto-Regular.ttf);
+}
+
+@font-face{
+    font-family: robotoLight;
+    src: url(./Fonts/Roboto-Light.ttf);
+}
+
+#logo{
+    height: 37.5vw;
+    width: 40vw;
+    margin-left: 30vw;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+}
+
+input{
+    margin-left: 16.66%;
+    margin-top: 0.5%;
+    border-radius: 5%;
+    padding-top: 1%;
+    padding-bottom:1%;
+    font-size: 4vw;
+    width: 66.66%;
+}
+
+#nome{
+    margin-top: 10%;
+}
+
+button{
+    margin-top: 2%;
+    margin-left: 33.33%;
+    border-radius: 12.5%;
+    background-color:#003772;
+    color:white;
+    padding-top: 1%;
+    padding-bottom:1%;
+    font-size: 4vw;
+    width: 33.33%;
+}
+
+th{
+    color: black;
+    font-family: segoe;
+    font-size: 3.5vw;
+    border: 1px solid black;
+    margin: 0;
+    font-family: roboto;
+}
+
+td{
+    color: black;
+    font-family: segoe;
+    font-size: 3.25vw;
+    border: 1px solid black;
+    margin: 0;
+    text-align: center;
+    font-family: robotoLight;
+}
+
+table{
+    border: 1px solid black;
+    width: 95vw;
+    margin-top: 5vh;
+    margin-left: 2.5vw;
+}
+
+p{
+    margin-top:5vh;
+    margin-left: 12.5vw;
+    width: 75vw;
+    border-radius: 1px;
+    text-align: center;
+    font-family: roboto;
+}
+
+@media only screen and (min-width:768px){
+    #logo{
+        height: 20vw;
+        width: 25vw;
+        margin-left: 37.5vw;
+        margin-bottom: 0vw;
+    }
+
+    input{
+        float: left;
+        width: 33.33%;
+        margin-left: 0%;
+        padding: 0.25vw;
+        font-size: 2.5vw;
+        margin-bottom: 0.5vw;
+    }
+
+    #nome{
+        margin-top: 5vw;
+        margin-left: 16.66%;
+    }
+
+    #salario{
+        margin-top: 5vw;
+    }
+
+    button{
+        font-size: 2.25vw;
+        width: 16.66%;
+        margin-left: 41.66%;
+        margin-bottom: 1vw;
+    }
+    
+    th{
+        font-size: 3vw;
+    }
+
+    td{
+        font-size: 2.75vw;
+    }
+}
